@@ -1,8 +1,11 @@
 ﻿body {
     background-color: #f9f7fe;
-    background-image: image(src="src/Welcome2SA.jpg");
+    background-image: url("src/Welcome2SA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 
 a {
     color: #885df1;
