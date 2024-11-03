@@ -1,4 +1,6 @@
-﻿function displayCulture(response) {
+﻿import axios from "axios";
+import Typewriter from "typewriter-effect";
+function displayCulture(response) {
     new Typewriter("#Culture", {
         strings: response.data.answer,
         autoStart: true,
