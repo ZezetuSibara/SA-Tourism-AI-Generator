@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/Styles.css" />
     <title>SA Tourism AI Generator</title>
 </head>
@@ -15,34 +16,32 @@
 
 
         <main>
-            <form>
-                <input type="text"
-                       placeholder="What do you want to know..."
-                       autofocus
-                       required
-                       autocomplete="off"
-                       class="instructions" />
-                <input type="submit" class=" submit-button" />
-            </form>
-            <br />
-            <div class="culture">
-                "Many Cultures, One Future"
-                <br />
-                – South Africa united in Ubuntu.
+            <div class="form-container">
+                <form>
+                    <input type="text"
+                           placeholder="What do you want to know..."
+                           autofocus
+                           required
+                           autocomplete="off"
+                           class="instructions" />
+                    <input type="submit" class=" submit-button" />
+                </form>
+                <div class="hint">i.e: Xhosa, Zulu or Ndebele</div>
             </div>
+            <div class="Culture hidden" id="Culture"></div>
         </main>
-        <br />
-        <footer>
-            This AI project was coded by
-            <a href="https://github.com/ZezetuSibara/" target="_blank">Zezetu Sibara</a> and
-            is
-            <a href="https://github.com/ZezetuSibara/SA-Tourism-AI-Generator"
-               target="_blank">
-                open-sourced on GitHub
-            </a>
-            and is
-            <a href="https://zezetusibara-sa-tourism-ai-generator.netlify.app/" target="_blank">hosted on Netlify</a>.
-        </footer>
+    <br />
+    <footer>
+        This AI project was coded by
+        <a href="https://github.com/ZezetuSibara/" target="_blank">Zezetu Sibara</a> and
+        is
+        <a href="https://github.com/ZezetuSibara/SA-Tourism-AI-Generator"
+           target="_blank">
+            open-sourced on GitHub
+        </a>
+        and is
+        <a href="https://zezetusibara-sa-tourism-ai-generator.netlify.app/" target="_blank">hosted on Netlify</a>.
+    </footer>
     </div>
     <script src="src/JavaScript.js"></script>
 </body>

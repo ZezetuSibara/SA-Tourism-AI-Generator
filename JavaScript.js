@@ -9,5 +9,5 @@ function generateCulture(event) {
     });
 }
 
-let poemFormElement = document.querySelector("#culture-generator-form");
+let CultureFormElement = document.querySelector("#culture-generator-form");
 CultureFormElement.addEventListener("submit", generateCulture);
