@@ -1,5 +1,8 @@
 ﻿body {
-    background-color: #f9f7fe;
+    background-image: url("https://image-prod.iol.co.za/16x9/800/South-Africans-celebrate-their-culture-and-the-diversity-of-their-beliefs-and-traditions-on-Heritage-Day-Picture-Good-Hope-Volunteers?source=https://iol-prod.appspot.com/image/834ce251b3d31bc966c905bd08d3598241e72d25/2000&operation=CROP&offset=0x86&resize=2000x1125&webp=true");
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the viewport */
     font-family: Helvetica, Arial, sans-serif;
 }
 
